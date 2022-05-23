@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="icon" type="image/x-icon" href="images/calendar.png">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Didlydoo | Outil de planification de réunion</title>
+</head>
+<body>
+    <header>
+        <h1>Didlydoo</h1>
+    
+        <div class="input">
+          <div class="grid">
+            <label for="eventName">Event name</label>
+            <input type="text" id="eventName" placeholder="Type the event name" required>
+          </div>
+
+          <div class="grid">
+            <label for="eventDesc">Event description</label>
+            <input type="text" id="eventDesc" placeholder="Type the event description">
+          </div>
+          <div class="grid">
+            <label for="author">Author</label>
+            <input type="text" id="author" placeholder="author">
+          </div>
+
+          <div class="grid" >
+            <label for="eventDate">Event date</label>
+            <input type="date" id="eventDate" required> 
+          </div>
+
+          <div class="grid">
+            <label for="eventDate">Event date</label>
+           <input type="date" id="eventDate1">
+          </div>
+         
+        </div>
+        <div>
+
+          <button class="addEventDate">+</button>
+          <button class="sendEvent" id="sendEvent">Add an event</button>
+        </div>
+        <div class="edit-input" >
+          <input id="edit-name" class="e-input" type="text" placeholder="name...">
+        <input id="edit-desc"  class="e-input" type="text" placeholder="description..."> 
+        <input type="text" id="edit-author" class="e-input" placeholder="author">
+        <div class="e-input">
+          <button id="change" >change</button>
+            <button id="cancel">cancel</button>
+
+        </div>  
+        </div>
+      
+    </header>
+
+        <hr>
+
+    <main>
+        <div class="eventList">
+        </div>
+    </main>
+</body>
+<script src="./js/index.js"></script>
+</html>

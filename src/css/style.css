@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0 5%;
+  font-family: "Open Sans", sans-serif;
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%)
+}
+
+header {
+  text-align: center;
+  width: 100%;
+}
+
+/* Table */
+table {
+  border: 1px solid black;
+}
+
+td,
+th {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.eventList {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+article {
+  margin-top: 3%;
+}
+
+/* Input */
+.edit-input {
+  width: 300px;
+  height: 250px;
+  background-color: wheat;
+  position: absolute;
+  left: 45%;
+  top: 30%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  display: none;
+}
+
+.edit-input.show {
+  display: flex;
+}
+.e-input {
+  margin-top: 1rem;
+}
+
+#change,
+#cancel {
+  padding: 3px;
+}
+.input {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  flex-direction: row;
+  width: 100%;
+}
+
+.input {
+  width: 100%;
+  margin: -top 2rem;
+}
+
+.input .grid {
+  margin: 30px;
+  text-align: left;
+}
+.input .grid input {
+  width: 100%;
+  padding: 10px 5px;
+}
+
+button {
+  padding: 10px 20px;
+}
+header button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  position: relative;
+  left: -10px;
+  cursor: pointer;
+}
+
+.addEventDate {
+  display: none;
+}
+
+.sureBtn {
+  width: 300px;
+  height: 200px;
+  background-color: red;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/* V / X / ? */
+.red,
+.green,
+.null {
+  width: 1vw;
+}
+
+.red {
+  filter: invert(12%) sepia(74%) saturate(4290%) hue-rotate(355deg)
+    brightness(81%) contrast(116%);
+}
+
+.green {
+  filter: invert(29%) sepia(83%) saturate(4577%) hue-rotate(135deg)
+    brightness(95%) contrast(105%);
+}
+
+.null {
+  filter: invert(37%) sepia(0%) saturate(2881%) hue-rotate(205deg)
+    brightness(89%) contrast(81%);
+}
+
+/* H1 */
+
+h1 {
+  color: rgb(24, 159, 196);
+  font-size: 45px;
+  margin: 0;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+/* Button add member */
+
+.addMember {
+  margin-left: 5%;
+}

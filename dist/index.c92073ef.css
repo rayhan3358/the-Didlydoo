@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0 5%;
+  font-family: Open Sans, sans-serif;
+}
+
+header {
+  text-align: center;
+  width: 100%;
+}
+
+table {
+  width: 55vw;
+  height: 30vh;
+  border: 1px solid #000;
+}
+
+td, th {
+  border: 1px solid #000;
+  padding: 8px;
+}
+
+.eventList {
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+}
+
+article {
+  margin-top: 3%;
+}
+
+.edit-input {
+  width: 300px;
+  height: 250px;
+  background-color: wheat;
+  flex-direction: column;
+  padding: 1rem;
+  display: none;
+  position: absolute;
+  top: 30%;
+  left: 45%;
+}
+
+.edit-input.show {
+  display: flex;
+}
+
+.e-input {
+  margin-top: 1rem;
+}
+
+#change, #cancel {
+  padding: 3px;
+}
+
+.input {
+  width: 100%;
+  width: 100%;
+  margin: -top 2rem;
+  flex-direction: row;
+  grid-template-columns: repeat(2, auto);
+  display: grid;
+}
+
+.input .grid {
+  text-align: left;
+  margin: 7px;
+}
+
+.input .grid input {
+  width: 100%;
+  padding: 10px 5px;
+}
+
+button {
+  padding: 10px 20px;
+}
+
+header button {
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 10px 20px;
+  position: relative;
+  left: -10px;
+}
+
+.addEventDate {
+  display: none;
+}
+
+.sureBtn {
+  width: 300px;
+  height: 200px;
+  background-color: red;
+  position: absolute;
+  inset: 0;
+}
+
+.red, .green, .null {
+  width: 1vw;
+}
+
+.red {
+  filter: invert(12%) sepia(74%) saturate(4290%) hue-rotate(355deg) brightness(81%) contrast(116%);
+}
+
+.green {
+  filter: invert(29%) sepia(83%) saturate(4577%) hue-rotate(135deg) brightness(95%) contrast(105%);
+}
+
+.null {
+  filter: invert(37%) sepia(0%) saturate(2881%) hue-rotate(205deg) brightness(89%) contrast(81%);
+}
+
+h1 {
+  color: #001bb1;
+  margin: 0;
+  font-size: 56px;
+  font-weight: bold;
+}
+
+.addMember {
+  margin-left: 5%;
+}
+
+/*# sourceMappingURL=index.c92073ef.css.map */
