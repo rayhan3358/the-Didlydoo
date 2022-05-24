@@ -1,10 +1,22 @@
+Didlydoo
+
 Didlydoo is a revolutionary website that allows you to create events and let anyone add their availability to find the best date for everyone.
 
-## Task :
+The mission
+You have been hired by a "truly disruptive" startup, to create a revolutionnary tool to plan events with friends and relatives. Introducing Didlydoo, the event planner!
 
-- Display all the events, including everyone's availability
-- Allow users to create events
-- Allow users to add their availability to an existing event
-- Edit an event name/description/author
-- Delete an event
+A backend developer has already created an API for the tool, so you can focus on the frontend. The list of endpoints is available below.
+
+Your tasks is to :
+
+🌱 Display all the events, including everyone's availability
+🌱 Allow users to create events
+🌱 Allow users to add their availability to an existing event
+🌱 Edit an event name/description/author
+🌱 Delete an event
+🌼 Display the best possible date according to availabilities
+🌼 Have a look at the backend code, try to change the message displayed on startup.
+This is the mockup that the company founder has drawn on a piece of paper during a lunch break (you can use it, or create your own layout).
+
+
 
