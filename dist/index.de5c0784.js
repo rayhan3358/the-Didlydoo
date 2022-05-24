@@ -9,13 +9,15 @@ sendEvent.addEventListener('click', function(e) {
     let eventDesc = document.getElementById('eventDesc').value;
     let eventDate = document.getElementById('eventDate').value;
     let eventDate1 = document.getElementById('eventDate1').value;
+    let eventDate2 = document.getElementById('eventDate2').value;
     let eventAuthor = document.getElementById('author');
     const newEvent = {
         name: eventName,
         description: eventDesc,
         dates: [
             eventDate,
-            eventDate1
+            eventDate1,
+            eventDate2,
         ],
         author: `${eventAuthor} `
     };
@@ -207,4 +209,3 @@ function chanThis(di) {
     });
 }
 
-//# sourceMappingURL=index.de5c0784.js.map
